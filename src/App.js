@@ -1,7 +1,8 @@
-import logo from "./logo.png";
+import logo from "./images/ethereumLogo.png";
 import "./App.css";
 import React, { useContext } from "react";
 import { Web3Context } from "./web3";
+
 
 function App() {
   const { account, connectWeb3, logout } = useContext(Web3Context);
@@ -12,7 +13,9 @@ function App() {
         <img src={logo} className="App-logo" alt="ethereum_logo" />
         <div>
           {account == null ? (
-            <button onClick={connectWeb3}>Connect Web3</button>
+            <div class="btn-text-right">
+            <button onClick={connectWeb3}>Connect to Ethereum</button>
+            </div>
           ) : (
             <div>
                <p>Account: {" "}
@@ -24,8 +27,6 @@ function App() {
             </div>
           )}
         </div>
-        <br/>
-       
       </header>
     </div>
   );

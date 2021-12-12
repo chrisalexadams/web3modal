@@ -4,7 +4,6 @@
 
 - `npm install` or `yarn install`
 - `npm start` or `yarn start`
-- That's it!
 - Add more [Providers](https://github.com/web3modal/web3modal#provider-options)
 ### Using with ethers
 
