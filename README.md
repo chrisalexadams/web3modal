@@ -1,4 +1,4 @@
-# Easy Web3Modal with React
+# Easy Web3Modal with React :rocket:
 
 ### Metamask and WalletConnect baked in:
 
